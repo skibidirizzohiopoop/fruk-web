@@ -1,0 +1,345 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+	font-family: "Lucida Sans";
+}
+
+#iggyside {
+	position: fixed;
+	bottom: 0;
+	z-index: 2;
+	
+}
+
+body {
+	background-image: url("Images/bg2.jpg");
+	background-attachment: fixed;
+	background-size: contain;
+	position: relative;
+}
+
+#foritalics {
+	font-size: 15px;
+	font-style: italic;
+	text-align: left;
+	padding: 20px;
+}
+
+h2 {
+	padding: 15px;
+
+}
+
+.sparkles {
+	color: #ED67B1;
+}
+
+#wing {
+	position: absolute;
+	width: 200px;
+	height:200px;
+	left: -60px;
+	top: 14px;
+	z-index: 1;
+}
+
+#wing2 {
+	position: absolute;
+	width: 200px;
+	height:200px;
+	right: -60px;
+	top: 14px;
+	z-index: 1;
+}
+
+#hearts {
+	width: 180px;
+	position: absolute;
+	left: 160px;
+	top: 230px;
+}
+
+#hearts2 {
+	width: 180px;
+	position: absolute;
+	right: 5px;
+	top: 350px;
+}
+
+#hearties {
+	width: 180px;
+	position: absolute;
+	left: 460px;
+	top: 50px;
+}
+
+#bunny {
+	width: 140px;
+	position: absolute;
+	right: 10px;
+	top: 240px;
+}
+
+#bunny2 {
+	width: 140px;
+	position: absolute;
+	left: 10px;
+	bottom: 600px;
+}
+
+audio {
+	width: 130px;
+	height: 25px;
+}
+
+#pagekun {
+	background-image: url("Images/strawberries.jpg");
+	background-size: cover;
+	object-fit: fill;
+	margin: 50px;
+	padding: 20px;
+	border: 6px;
+	border-style: dashed;
+	border-radius: 15px;
+	border-color: #ED67B1;
+	height: 1200px;
+	box-shadow: 0px 0px 30px #ED67B1;
+	
+	
+}
+
+.boxy {
+	
+	border-style: outset;
+	height: 30px;
+    display: flex;
+	justify-content: center;
+    align-items: center;
+	background-image: linear-gradient(#FFC0DA, #ED67B1);
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+#buttons {
+	position: absolute;
+	top: 303px;
+	right: 30px;
+}
+
+#xbutton {
+	position: absolute;
+	right: 80px;
+	justify-content: center;
+    align-items: center;
+	border: outset;
+	border-width: 3px;
+	font-size: 13px;
+	width: 20px;
+	height: 20px;
+	background-image: linear-gradient(#BDBDBD, #757575)
+}
+
+#restore {
+	position: absolute;
+	right: 110px;
+	justify-content: center;
+    align-items: center;
+	border: outset;
+	border-width: 3px;
+	font-size: 13px;
+	width: 20px;
+	height: 20px;
+	background-image: linear-gradient(#BDBDBD, #757575)
+}
+
+#minimise {
+	position: absolute;
+	right: 140px;
+	justify-content: center;
+    align-items: center;
+	border: outset;
+	border-width: 3px;
+	font-size: 13px;
+	width: 20px;
+	height: 20px;
+	background-image: linear-gradient(#BDBDBD, #757575)
+}
+
+#morepics {
+ 
+  width: 20%;
+  float: left;
+  height: 511px;
+  left: 15;
+  top: 100%;
+  margin-right: 1%;
+  border-style: outset;
+  border-width: 4px;
+  background-image: url("Images/strawberr2.jpg");
+  background-size: contain;
+  margin-top: 2px;
+	
+}
+
+.flags {
+	width: 130px;
+	border-radius: 7px;
+	align-content: center;
+	border: dashed;
+	border-color: white;
+}
+
+#sidenav {
+ 
+  width: 20%;
+  float: left;
+  height: 200px;
+  left: 15;
+  top: 100%;
+  margin-right: 1%;
+  border-style: outset;
+  border-width: 4px;
+  background-image: url("Images/strawberr2.jpg");
+  background-size: contain;
+}
+
+#dontmindthis {
+	 overflow-y: auto;
+	align-items: center;
+	justify-content: center;
+	height: 166px;
+}
+.navtext {
+	border-style: outset;
+	padding: 3px;
+	border-radius: 25px;
+	justify-content: center;
+	background-image: linear-gradient(white, #FFC0DA);
+	color: #ED67B1;
+	border-color: #FFC0DA;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+
+#lilimg {
+ 
+  width: 20%;
+  float: left;
+  height: 140px;
+  left: 15;
+  top: 100%;
+  margin-right: 1%;
+  background-image: url("Images/strawberr2.jpg");
+  background-size: contain;
+  font-size: 10px;
+  border-style: outset;
+  border-width: 4px;
+	
+}
+
+#welcom {
+
+	margin: auto;
+	width: 76%;
+    font-size: 12px;
+	border-style: outset;
+	border-width: 4px;
+	float: right;
+	height: 140px;
+	
+}
+
+#comments {
+	margin: auto;
+	width: 56%;
+    font-size: 12px;
+	border-style: outset;
+	border-width: 4px;
+	float: left;
+	height: 170px;
+	
+}
+
+#blinkies {
+	background-image: url("Images/blinkiesCafe-y9.gif");
+	background-size: contain;
+	color: white;
+}
+	
+
+#banner {
+	align-content: center;
+	padding: 30px;
+    background-image: url("Images/mainbanner.gif");
+	background-size: cover;
+	display: flex;
+	font-size: 20px;
+	margin: 0 auto;
+
+}
+
+#lase {
+	position: absolute;
+	left: 74px;
+	top: 59px;
+	display: block;
+    margin: 0 auto;
+    width: 85%;
+	height: 70px;
+}
+
+#lase2 {
+	position: absolute;
+	left: 74px;
+	top: 150px;
+	display: block;
+    margin: 0 auto;
+    width: 85%;
+	height: 70px;
+}
+
+#moreblinks {
+	background-image: url("Images/blinkiesCafe-y9.gif");
+	background-size: contain;
+	color: white;
+	margin: auto;
+	width: 56%;
+	float: left;
+}
+
+#mainbody {
+	overflow-y: auto;
+    margin: auto;
+	width: 76%;
+    font-size: 12px;
+	border-style: dotted;
+	border-color: #FFC0DA;
+	border-width: 4px;
+	float: right;
+	height: 700px;;
+}
+
+.pic {
+	margin: 20px;
+	display: inline-block;
+}
+
+
+header {
+	text-align: center;
+	color: white;
+	text-shadow: 0px 0px 15px #ED67B1;
+	font-weight: bold;
+}
+
+ 
+
+
+footer {
+	text-align: center;
+	color: white;
+	text-shadow: 0px 0px 15px #ED67B1;
+}
